@@ -1,0 +1,151 @@
+body{
+  background-color: #ffffff;
+}
+
+.container{
+  width: 1000px;
+  height: auto;
+  background-color: #ffffff;
+  margin: auto; 
+  padding: 10px;
+}
+
+*{
+  margin:0;
+  padding:0;
+}
+
+.navbar{
+  width: auto;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center; 
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.navbar ul{
+  display: flex;
+  flex-direction: row;
+  gap:10px;
+}
+
+.navbar ul li{
+  list-style: none;
+}
+
+.slider{
+  width: auto;
+  height: 365px;
+  background-image: url('../image/singa.jpg');
+  background-position: center;
+  background-size: cover;
+  border-radius: 10px;
+  margin-top: 30px;
+  position: relative;
+}
+
+.slider .pencarian {
+  background-color: #ffffff;
+  padding: 10px; /* Menambahkan padding untuk membuat konten lebih terlihat */
+  border-radius: 5px; /* Menambahkan border-radius untuk estetika */
+  position: absolute; /* Membuat pencarian diposisikan secara absolut */
+  top: 100px; /* Jarak dari atas slider */
+  left: 20px; /* Jarak dari kiri slider */
+}
+
+.slider .pencarian .form{
+  border: none;
+  width: 300px;
+  height: 25px;
+}
+
+.slider .pencarian .form:focus,
+.slider .pencarian .form:active {
+  outline: none; /* Menghapus border biru default saat fokus atau aktif */
+  border-color: #aaa; 
+}
+
+
+.slider .pencarian .btn-pencarian{
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.slider h3{
+  color: white;
+  position: absolute; /* Membuat pencarian diposisikan secara absolut */
+  top: 170px; /* Jarak dari atas slider */
+  left: 20px;
+  text-transform: uppercase;
+  font-size: 35px;
+}
+
+.content{
+  display: flex;
+  margin-top: 10px;
+  height: auto;
+  width: auto;
+  gap: 20px;
+}
+
+.sidebar{
+  width: 25%;
+  background-color: #ffffff;
+  box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.main{
+  flex: 1;
+  background-color: #ffffff;
+  box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+  padding: 10px;
+}
+
+.about{
+  display: flex;
+  flex-direction:column;
+  gap:10px;
+  margin-bottom:10px;
+}
+
+.product{
+  display: flex;
+  flex-direction:column;
+  gap:10px;
+}
+
+.product ul{
+  display: flex;
+  gap:20px;
+}
+
+.product ul li{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  list-style: none;
+}
+
+.sidebar ul{
+  display: flex;
+  flex-direction: column;
+  gap:20px;
+}
+
+.sidebar ul li{
+  display: flex;
+  flex-direction: row;
+  gap:10px;
+}
+
+
